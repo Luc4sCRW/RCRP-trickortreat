@@ -113,65 +113,15 @@ Config.Houses = {
         blip = vec3(1300.953, -574.572, 71.709),
         npcSpawn = vector4(1301.0326, -574.2784, 71.7322, 343.2847)
     },
-    
-    -- VinewoodHills
-    {
-        blip = vec3(-824.814, 421.737, 92.291),
-        npcSpawn = vector4(-824.7601, 421.9961, 92.1242, 5.2184)
-    },
-    {
-        blip = vec3(-761.982, 430.546, 100.318),
-        npcSpawn = vector4(-761.9954, 430.8511, 100.1969, 18.6291)
-    },
-    {
-        blip = vec3(-784.892, 460.006, 100.514),
-        npcSpawn = vector4(-784.8298, 459.7439, 100.3893, 210.2912)
-    },
-    {
-        blip = vec3(-717.698, 448.340, 107.048),
-        npcSpawn = vector4(-717.7797, 448.5804, 106.9091, 25.4159)
-    },
-    {
-        blip = vec3(-679.094, 512.390, 113.849),
-        npcSpawn = vector4(-679.0881, 512.1254, 113.5260, 197.6222)
-    },
-    {
-        blip = vec3(-667.036, 471.243, 114.536),
-        npcSpawn = vector4(-667.2071, 471.4591, 114.1365, 9.4429)
-    },
-    {
-        blip = vec3(-641.030, 520.880, 109.875),
-        npcSpawn = vector4(-641.0047, 520.6279, 109.8828, 189.7394)
-    },
-    {
-        blip = vec3(-595.604, 530.643, 108.005),
-        npcSpawn = vector4(-595.5905, 530.3826, 107.7545, 194.2998)
-    },
-    {
-        blip = vec3(-581.339, 490.972, 109.246),
-        npcSpawn = vector4(-580.3318, 491.5130, 108.9030, 10.2551)
-    },
-    {
-        blip = vec3(-536.446, 477.136, 103.457),
-        npcSpawn = vector4(-536.6345, 477.3102, 103.1936, 55.3487)
-    },
-    {
-        blip = vec3(-554.353, 541.549, 110.950),
-        npcSpawn = vector4(-554.4725, 541.3218, 110.7071, 162.7811)
-    },
-    {
-        blip = vec3(-721.794, 490.752, 109.754),
-        npcSpawn = vector4(-721.4119, 490.3554, 109.4021, 207.4578)
-    },
    -- {
    --     blip = ,
    --     npcSpawn = vector4()
    -- },
 }
 
-Config.Rewards = { 
-"water", "burger", "weed_og", "cocaine", "mining_stone", "artificial_bait", "raw_copper", "pizza_veggie", "money", "bier", "vodka", "scratchcard", "sprunk", "panties", "chips", "candy", "peanutchoc"
+Config.Rewards = { -- you can add as much as you want // EDIT FOR YOUR OWN REWARDS
+"water", "burger", "cocaine", "stone", "pizza_veggie", "vodka", "scratchcard", "chips", "candy"
 }
 
-Config.NoRewardChance = 25   -- 25% Chance, dass man leer ausgeht
-Config.AttackChance    = 15  -- 15% Chance, dass NPC den Spieler schlägt
+Config.NoRewardChance = 25   -- 25% chance to get nothing
+Config.AttackChance    = 15  -- 15% chance that the player gets hit // or that the evil npc spawns
