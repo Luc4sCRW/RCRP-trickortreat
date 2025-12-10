@@ -1,9 +1,9 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'Halloween Trick or Treat Script (OX-based)'
 author 'REDLINE CITY RP | RCRP'
-version '1.2.0 | Update 31.10.25'
+description 'Trick or Treat Script (OX-target based)' 
+version 'Official Release | 1.0'
 
 shared_scripts {
     '@ox_lib/init.lua',
