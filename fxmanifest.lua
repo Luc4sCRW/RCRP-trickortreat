@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'REDLINE CITY RP | RCRP'
 description 'Trick or Treat Script (OX-target based)' 
-version 'Official Release | 1.0'
+version '1.0 (Official Release)'
 
 shared_scripts {
     '@ox_lib/init.lua',
