@@ -107,7 +107,7 @@ end)
     local ped = CreatePed(4, model, coords.x, coords.y, coords.z, coords.w, true, true)
     GiveWeaponToPed(ped, GetHashKey('WEAPON_BATTLEAXE'), 1, false, true)
     SetCurrentPedWeapon(ped, GetHashKey('WEAPON_BATTLEAXE'), true)
-    SetPedCombatAttributes(ped, 46, true) -- Immer kämpfen
+    SetPedCombatAttributes(ped, 46, true) -- fight
     SetPedCombatRange(ped, 2)
     SetPedCombatMovement(ped, 2)
     SetPedAccuracy(ped, 60)
