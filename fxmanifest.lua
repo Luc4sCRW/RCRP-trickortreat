@@ -1,5 +1,6 @@
 fx_version 'cerulean'
 game 'gta5'
+lua54 'yes'
 
 author 'REDLINE CITY RP | RCRP'
 description 'Trick or Treat Script (OX-target based)' 
@@ -18,5 +19,3 @@ server_scripts {
     '@oxmysql/lib/MySQL.lua',
     'server.lua'
 }
-
-lua54 'yes'
